@@ -68,6 +68,7 @@
           </image>
         </configuration>
       </plugin>
+      <plugin></plugin>
     </plugins>
   </build>
 

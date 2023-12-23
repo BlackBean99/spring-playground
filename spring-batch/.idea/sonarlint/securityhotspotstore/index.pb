@@ -11,3 +11,15 @@ p
 @src/main/java/com/example/springbatch/HelloJobConfiguration.java,1/6/16a49a676214223b3843a17f18d7c9dbfdab5e24
 k
 ;src/main/java/com/example/springbatch/JobParameterTest.java,5/c/5cef32ae04bf34cb7452f4afa7681cb90543a0f3
+r
+Bsrc/main/java/com/example/springbatch/ExecutionContextTasklet.java,4/2/425ea58cf029e590224877c17326496f3c469620
+s
+Csrc/main/java/com/example/springbatch/ExecutionContextTasklet1.java,2/6/261bd4c22b846909b3a1749028f29acfdd8c7b85
+s
+Csrc/main/java/com/example/springbatch/ExecutionContextTasklet2.java,6/1/61d1fefced87d1f2a589bde1a0d5788a2b8d4dce
+s
+Csrc/main/java/com/example/springbatch/ExecutionContextTasklet3.java,d/2/d2422af12ccac37ec66b1f40dcb8f89b2f7d9326
+s
+Csrc/main/java/com/example/springbatch/ExecutionContextTasklet4.java,f/3/f3a44662a27dcd2a5bfd67a7835d3eefb9437ca4
+x
+Hsrc/main/java/com/example/springbatch/ExecutionContextConfiguration.java,c/3/c3548d0237b5e22906ca218351fd03a90346ba1e
