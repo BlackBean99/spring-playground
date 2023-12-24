@@ -41,3 +41,7 @@ Ksrc/main/java/com/example/springbatch/tasklet/ExecutionContextTasklet1.java,4/
 Ksrc/main/java/com/example/springbatch/tasklet/ExecutionContextTasklet4.java,b/d/bd9abc27908e9fe13b7b406c172c22f61e28fd30
 {
 Ksrc/main/java/com/example/springbatch/tasklet/ExecutionContextTasklet2.java,5/d/5d1f172635baf3c2a6e64a7e3637eaaa917ad8c2
+ˆ
+Xsrc/main/java/com/example/springbatch/validatorExample/CustomJobParametersValidator.java,f/5/f50a095bc970052bf0c4b85918a3516b7c411ee8
+‚
+Rsrc/main/java/com/example/springbatch/validatorExample/ValidatorConfiguration.java,2/6/26b8469e45f8eff673a64e4b0df367622ac213c5
