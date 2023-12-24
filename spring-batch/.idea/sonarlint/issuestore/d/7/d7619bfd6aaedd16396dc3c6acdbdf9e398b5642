@@ -1,0 +1,31 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8èÄ÷ÔÉ1
+]	java:S125"<This block of commented-out lines of code should be removed.(§Ÿÿ®üÿÿÿÿ8‡ĞëØÉ1
+b
+java:S1128"@Remove this unused import 'com.example.springbatch.domain.User'.(´Êøóùÿÿÿÿ8óêëØÉ1
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8óêëØÉ1
+\
+java:S1128"?Remove this unused import 'org.springframework.batch.core.Job'.(Âà»¥8óêëØÉ1
+f
+java:S1128"IRemove this unused import 'org.springframework.batch.core.JobParameters'.(„Øº¬8óêëØÉ1
+r
+java:S1128"PRemove this unused import 'org.springframework.batch.core.JobParametersBuilder'.(åÊ•Áùÿÿÿÿ8óêëØÉ1
+{
+java:S1128"YRemove this unused import 'org.springframework.batch.core.JobParametersInvalidException'.(ƒ‹¦Ãıÿÿÿÿ8óêëØÉ1
+y
+java:S1128
+"\Remove this unused import 'org.springframework.batch.core.launch.support.SimpleJobLauncher'.(õñÅï8óêëØÉ1
+Œ
+java:S1128"jRemove this unused import 'org.springframework.batch.core.repository.JobExecutionAlreadyRunningException'.(²Ú¶ƒûÿÿÿÿ8óêëØÉ1
+Œ
+java:S1128"jRemove this unused import 'org.springframework.batch.core.repository.JobInstanceAlreadyCompleteException'.(ãËıÖşÿÿÿÿ8óêëØÉ1
+|
+java:S1128"ZRemove this unused import 'org.springframework.batch.core.repository.JobRestartException'.(å²™›üÿÿÿÿ8óêëØÉ1
+o
+java:S1128"RRemove this unused import 'org.springframework.core.task.SimpleAsyncTaskExecutor'.(¬·âì8óêëØÉ1
+l
+java:S1128"ORemove this unused import 'org.springframework.web.bind.annotation.GetMapping'.(‡¡‰Ø8ôêëØÉ1
+r
+java:S1128"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(â­½Àıÿÿÿÿ8ôêëØÉ1

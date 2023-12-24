@@ -1,16 +1,22 @@
 package com.example.springbatch;
 
+import com.example.springbatch.tasklet.ExecutionContextTasklet1;
+import com.example.springbatch.tasklet.ExecutionContextTasklet2;
+import com.example.springbatch.tasklet.ExecutionContextTasklet3;
+import com.example.springbatch.tasklet.ExecutionContextTasklet4;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
-import org.springframework.batch.core.configuration.annotation.JobScope;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
-import org.springframework.batch.core.job.builder.JobBuilder;
+import org.springframework.batch.core.job.builder.FlowBuilder;
+import org.springframework.batch.core.job.flow.Flow;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 
 @RequiredArgsConstructor
+@Configuration
 public class ExecutionContextConfiguration {
   private final JobBuilderFactory jobBuilderFactory;
   private final StepBuilderFactory stepBuilderFactory;
@@ -20,19 +26,36 @@ public class ExecutionContextConfiguration {
   private final ExecutionContextTasklet4 executionContextTasklet4;
 
   @Bean
-  public Job helloJob() {
-    return jobBuilderFactory.get("job")
-      .start(step1())
-        .next(step2())
-        .next(step3())
+  public Flow flow() {
+    FlowBuilder<Flow> flowBuilder = new FlowBuilder<>("flow");
+    flowBuilder.start(step3())
         .next(step4())
-      .build();
+        .end();
+    return flowBuilder.build();
   }
 
-  private Step step4() {
+
+  @Bean
+  public Step step4() {
     return stepBuilderFactory.get("step4")
         .tasklet(executionContextTasklet4)
         .build();
+  }
+
+  @Bean
+  public Step step3() {
+    return stepBuilderFactory.get("step4")
+        .tasklet(executionContextTasklet3)
+        .build();
+  }
+
+  @Bean
+  public Job batchJob1() {
+    return jobBuilderFactory.get("batchJob1")
+      .start(flow())
+        .next(step5())
+        .end()
+      .build();
   }
 
   @Bean
@@ -47,9 +70,18 @@ public class ExecutionContextConfiguration {
         .tasklet(executionContextTasklet2)
         .build();
   }
-  @Bean Step step3(){
-    return stepBuilderFactory.get("step3")
-        .tasklet(executionContextTasklet3)
+  @Bean
+  public Step step5(){
+    return stepBuilderFactory.get("step2")
+        .tasklet(
+            (contribution, chunkContext) -> {
+              System.out.println("name = " + chunkContext.getStepContext().getStepExecution()
+                  .getJobExecution().getExecutionContext().get("name"));
+              System.out.println("tasklet5");
+              return null;
+            }
+
+        )
         .build();
   }
 
