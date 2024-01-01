@@ -61,3 +61,7 @@ w
 Gsrc/main/java/com/example/springbatch/customChunk/CustomItemWriter.java,f/0/f044da4cfd5248fcbe6428d7fee1f7bbaa52a9e2
 ç
 ]src/main/java/com/example/springbatch/customChunk/ItemReaderProcessorWriterConfiguration.java,7/1/71025eb17f115c132f2f9a344a2e4793113cdeba
+}
+Msrc/main/java/com/example/springbatch/customChunk/CustomItemStreamReader.java,9/0/90887a05f63f99551a2119f20e09c731379e2ff2
+}
+Msrc/main/java/com/example/springbatch/customChunk/CustomItemStreamWriter.java,2/8/28259063d3d7eceb1c225a2c9436a0315d0069fe
