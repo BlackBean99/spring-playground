@@ -65,3 +65,11 @@ Gsrc/main/java/com/example/springbatch/customChunk/CustomItemWriter.java,f/0/f0
 Msrc/main/java/com/example/springbatch/customChunk/CustomItemStreamReader.java,9/0/90887a05f63f99551a2119f20e09c731379e2ff2
 }
 Msrc/main/java/com/example/springbatch/customChunk/CustomItemStreamWriter.java,2/8/28259063d3d7eceb1c225a2c9436a0315d0069fe
+y
+Isrc/main/java/com/example/springbatch/flatfile/FlatFileConfiguration.java,9/a/9a3f2d1210c3e9580a4150c06e6a1a42408fbf53
+u
+Esrc/main/java/com/example/springbatch/flatfile/DefaultLineMapper.java,b/8/b87488b799eec9e312d1c5ce6ab84f268ee97864
+x
+Hsrc/main/java/com/example/springbatch/flatfile/CustomFieldSetMapper.java,7/a/7a42acc8ff1a664d38f9051e0c956943090feaa0
+l
+<src/main/java/com/example/springbatch/flatfile/Customer.java,4/3/430e753ae92f6b42619678fbe33eaa9f676333bd
