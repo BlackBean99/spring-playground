@@ -73,3 +73,7 @@ x
 Hsrc/main/java/com/example/springbatch/flatfile/CustomFieldSetMapper.java,7/a/7a42acc8ff1a664d38f9051e0c956943090feaa0
 l
 <src/main/java/com/example/springbatch/flatfile/Customer.java,4/3/430e753ae92f6b42619678fbe33eaa9f676333bd
+t
+Dsrc/main/java/com/example/springbatch/xml/FlatFileConfiguration.java,c/2/c2e8694b2ef8859d4ed87de9eba55d3044344207
+o
+?src/main/java/com/example/springbatch/xml/XmlConfiguration.java,9/e/9ed2097b95d5487776dcaebd9837b63b5dec0847
