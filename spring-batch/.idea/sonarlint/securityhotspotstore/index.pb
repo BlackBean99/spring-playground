@@ -77,3 +77,11 @@ t
 Dsrc/main/java/com/example/springbatch/xml/FlatFileConfiguration.java,c/2/c2e8694b2ef8859d4ed87de9eba55d3044344207
 o
 ?src/main/java/com/example/springbatch/xml/XmlConfiguration.java,9/e/9ed2097b95d5487776dcaebd9837b63b5dec0847
+q
+Asrc/main/java/com/example/springbatch/json/JsonConfiguration.java,6/a/6ae7ccc10e1273ce5ce83d164af1b85e266ca269
+}
+Msrc/main/java/com/example/springbatch/jdbcCursor/JdbcCursorConfiguration.java,6/f/6fb5be99bfaa7a27e885356d3bc1e4afb961b353
+n
+>src/main/java/com/example/springbatch/jdbcCursor/Customer.java,8/2/829b0893c7ee1245b2832379eba42e93c5ba49bb
+h
+8src/main/java/com/example/springbatch/json/Customer.java,d/8/d8afdcaf786d9c7afab9eb79d53365f7fec4b600
