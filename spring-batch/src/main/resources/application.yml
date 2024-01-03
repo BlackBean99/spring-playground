@@ -28,6 +28,17 @@ spring:
       username: root
       password:
       driver-class-name: com.mysql.cj.jdbc.Driver
+#    auto ddl
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    defer-datasource-initialization: true
+
   batch:
     initialize-schema: always
 #    job:
