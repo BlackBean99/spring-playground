@@ -161,3 +161,15 @@ Ysrc/main/java/com/example/springbatch/compositeItemProcessor/CompositeItemProce
 Xsrc/main/java/com/example/springbatch/compositeItemProcessor/CompositeConfiguration.java,8/8/88c693ea11c5a8c1c14bd9a4ac7f7f100858a349
 Ä
 Psrc/main/java/com/example/springbatch/ItemWriterAdapter/CustomItemProcessor.java,0/2/025125efd9a780d81c8ad0aabc4fdf194a607fd2
+ú
+lsrc/main/java/com/example/springbatch/classifierCompositeItemProcessor/ClassifierCompositeConfiguration.java,6/5/65b69dfd6ab6899ef4bde7e6ea6501d83b26d1e9
+â
+Ysrc/main/java/com/example/springbatch/classifierCompositeItemProcessor/ProcessorInfo.java,0/3/03cff68ca4e72d2ca8040154dd107307e16d5757
+è
+_src/main/java/com/example/springbatch/classifierCompositeItemProcessor/ProcessorClassifier.java,3/b/3b634c452c9602ad00199fba5aea44c2a1123926
+ê
+`src/main/java/com/example/springbatch/classifierCompositeItemProcessor/CustomItemProcessor1.java,6/e/6e8a73b24c0085058fe5a9131f38738be36fe0d5
+ê
+`src/main/java/com/example/springbatch/classifierCompositeItemProcessor/CustomItemProcessor2.java,3/9/3917d8db8e650cb966b8d263a3a8811b9b697abb
+ê
+`src/main/java/com/example/springbatch/classifierCompositeItemProcessor/CustomItemProcessor3.java,7/d/7d1a8f3d6866183820d96358fc2e99a1ea4fbdfe
