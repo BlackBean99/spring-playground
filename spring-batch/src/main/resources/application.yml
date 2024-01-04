@@ -41,6 +41,10 @@ spring:
 
   batch:
     initialize-schema: always
+#    batch log on
+#    job:
+#      enabled: false
+
 #    job:
 #      names: ${job.name:NONE}
 ---
