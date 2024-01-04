@@ -173,3 +173,7 @@ _src/main/java/com/example/springbatch/classifierCompositeItemProcessor/Processo
 `src/main/java/com/example/springbatch/classifierCompositeItemProcessor/CustomItemProcessor2.java,3/9/3917d8db8e650cb966b8d263a3a8811b9b697abb
 ê
 `src/main/java/com/example/springbatch/classifierCompositeItemProcessor/CustomItemProcessor3.java,7/d/7d1a8f3d6866183820d96358fc2e99a1ea4fbdfe
+Ç
+Rsrc/main/java/com/example/springbatch/repeat/ClassifierCompositeConfiguration.java,2/5/253e11c6d5cfee2d0b98ef35e8a9a9fb43e6872a
+u
+Esrc/main/java/com/example/springbatch/repeat/RepeatConfiguration.java,6/e/6e3f1f9d2fce189e8e8ed630b1a2a468d932dfac
