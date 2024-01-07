@@ -179,3 +179,9 @@ q
 Asrc/main/java/com/example/springbatch/parallel/CustomTasklet.java,2/e/2e8fb86fc420fc5903247370c2f195481870f316
 x
 Hsrc/main/java/com/example/springbatch/parallel/StopWatchJobListener.java,9/2/92369035ec844d06013f6ae9d51d51395e540912
+Å
+Qsrc/main/java/com/example/springbatch/partitioning/PartitioningConfiguration.java,c/5/c5f332d037c975d9b364df1bd689be1aeff3b766
+~
+Nsrc/main/java/com/example/springbatch/partitioning/ColumnRangePartitioner.java,5/4/549e7e0009cbc1d8efb6f0e6d6a732a034ec8971
+á
+Wsrc/main/java/com/example/springbatch/nonsynchronized/NonSynchronizedConfiguration.java,a/a/aa7b3bebb0a140963a040a7d610bf1dcc0107841
