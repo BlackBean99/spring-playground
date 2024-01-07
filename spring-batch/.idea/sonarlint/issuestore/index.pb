@@ -163,8 +163,6 @@ s
 Csrc/main/java/com/example/springbatch/async/AsyncConfiguration.java,6/7/672e1bffc483dbe4e24176352c81941ceb73dc90
 n
 >src/main/java/com/example/springbatch/async/AsyncCustomer.java,9/a/9adc2b846d41507b360ae7371ce8782b5afb6eb3
-x
-Hsrc/main/java/com/example/springbatch/async/CustomItemReasdListener.java,9/0/9036c74a895ed12e81a4afef4c68f4ffa03921bb
 z
 Jsrc/main/java/com/example/springbatch/async/CustomItemProcessListener.java,8/d/8dce69d8a49e33709ee8e5a384c1a4417c6c9f9d
 w
@@ -173,3 +171,11 @@ x
 Hsrc/main/java/com/example/springbatch/async/CustomItemWriteListener.java,9/d/9d48a6d8e4128f0b4bc519dda36a38c6ae1ae24e
 p
 @src/main/java/com/example/springbatch/async/CustomRowMapper.java,3/a/3ae8f4c8c2d60c3869d5586224875b430ce1d1ea
+~
+Nsrc/main/java/com/example/springbatch/parallel/ParrallelStepConfiguration.java,b/9/b9c1a87885230192fc0adb1d910db74946d8c0d2
+}
+Msrc/main/java/com/example/springbatch/parallel/ParallelStepConfiguration.java,8/8/88fe23bf76d4347b0a69fdcfb74f0194de68f332
+q
+Asrc/main/java/com/example/springbatch/parallel/CustomTasklet.java,2/e/2e8fb86fc420fc5903247370c2f195481870f316
+x
+Hsrc/main/java/com/example/springbatch/parallel/StopWatchJobListener.java,9/2/92369035ec844d06013f6ae9d51d51395e540912
