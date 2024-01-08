@@ -32,12 +32,14 @@ spring:
   jpa:
     open-in-view: false
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
         show_sql: true
         format_sql: true
     defer-datasource-initialization: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
 
   batch:
     initialize-schema: always

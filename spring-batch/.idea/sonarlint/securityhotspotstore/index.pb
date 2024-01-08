@@ -231,3 +231,15 @@ u
 Esrc/main/java/com/example/springbatch/joboperation/JobController.java,7/0/70d36349c5907d6d6901b03fa2f55b6478c7bf35
 o
 ?src/main/java/com/example/springbatch/joboperation/JobInfo.java,8/2/82df58b4ad84775c9114a5b0dc6b72e56c79944d
+†
+Vsrc/main/java/com/example/springbatch/example/batch/job/file/FileJobConfiguration.java,5/a/5a34946cbd38a08062e446daa75356d20f6a872c
+w
+Gsrc/main/java/com/example/springbatch/example/batch/domain/Product.java,8/0/804ea54fa51b35e6e84cc926da63e67a814bd1d8
+y
+Isrc/main/java/com/example/springbatch/example/batch/domain/ProductVO.java,e/2/e2d776fca88ff95ae4cbbe67bd8fbb8799da1768
+ƒ
+Ssrc/main/java/com/example/springbatch/example/batch/job/file/FileItemProcessor.java,a/5/a5e3aa72d72d7cf42067a57a3c13985045252115
+€
+Psrc/main/java/com/example/springbatch/example/batch/job/file/FileItemWriter.java,6/3/6313171c8a5078f8037b6c8d13d194557f6a4a13
+Š
+Zsrc/main/java/com/example/springbatch/example/batch/chunk/processor/FileItemProcessor.java,c/f/cf24c585916e461290ded98aa9adf273108d2aff
